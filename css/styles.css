@@ -1,0 +1,151 @@
+/******************TAG STYLES**********************/
+body{
+    color: #40514E;
+    margin:0px;
+    text-align: center;
+    background-color: #F0F5F9;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+
+h1{
+    color: #66BFBF;
+    font-size: 4.625rem;
+    width: 50%;
+    margin: 1.6rem auto 0 auto;
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+
+h3{
+    color:#11999E;
+    font-family: 'Rubik', sans-serif;
+
+}
+p{
+    line-height: 2;
+}
+hr{
+    border:dotted 10px;
+    border-color: #288996;
+    width: 10%;
+    border-bottom: none;
+    margin: 100px auto 100px auto;
+}
+a{
+    color:#104244;
+    font-family: 'Playfair Display', serif;
+    margin: 10px 20px;
+    text-decoration:none;
+}
+a:hover{
+    color: #1e946c
+}
+
+
+/******************CLASS STYLES**********************/
+
+.clouds_img{
+    width: 100px;
+}
+
+.img-profile{
+    border-radius: 100%;
+    width:25%;
+}
+.top-container{
+    margin:0px;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    margin: 100px auto 0;
+    background-color: #66BFBF;
+    padding:50px 0 20px;
+}
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Rubik', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn  :active {
+	position:relative;
+	top:1px;
+}
+
+
+/******************ID STYLES*************************/
+
+/*images*/
+#mountain{
+    width:100%;
+    position:relative;
+    left:0;
+}
+#cloud_top{
+    position:absolute;
+    right: 300px;
+    top: 50px;
+}
+#cloud_bottom{
+    position: absolute;
+    left: 300px;
+    bottom: 350px;
+}
+#img-logo-PS{
+    border-radius: 100%;
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+#img-logo-seesharp{
+    border-radius: 100%;
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+/*texts*/
+#contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+#intro{
+    width: 40%;
+    margin: auto;
+}
+#copyright{
+    color:#c3fce9;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.75rem;
+    padding: 20px 0;
+
+}
